@@ -66,7 +66,7 @@
             >;
         };
 
-        lower_layer {
+        numbers_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -75,9 +75,9 @@
 
             bindings = <
 &kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0    &kp BSPC
-&trans      &trans        &trans        &trans        &trans        &trans          &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &kp LBKT  &kp RBKT
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans    &trans
-                                        &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
+&trans      &trans        &trans        &trans        &trans        &trans          &trans    &kp N4    &kp N5    &kp N6     &kp LBKT  &kp RBKT
+&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &kp N1    &kp N2    &kp N3     &trans    &trans
+                                        &kp LGUI      &trans        &kp SPACE       &kp RET   &kp N0    &kp RALT
             >;
         };
 
